@@ -1,0 +1,134 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap'); */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 40px 70px;
+}
+.body{
+    background-color: white;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.list-item{
+    margin: 0 20px;
+    padding-top: 5px;
+    font-size: x-large;
+    font-weight:480;
+    font-family: 'Orbitron', sans-serif;
+}
+#home{
+    font-weight: bold;
+    ont-family: 'Orbitron', sans-serif;
+    text-decoration: underline;
+}
+.button-group{
+    display: flex;
+}
+
+.nav-button{
+    border:2px solid rgb(0, 0, 0);
+    
+    color: rgb(95, 94, 94);
+    background-color: white;
+    font-size: larger;
+    padding: 8px 44px;
+    border-radius: 10px;
+    margin:0 8px;
+}
+ .hero-container{
+    margin-top: 80px;
+} 
+.hero-container #bro{
+    
+    z-index: 10;
+    width:500px;
+    height: 500px;
+}
+ .square{
+    z-index: -1;
+    position: absolute;
+    bottom:0px;
+    top:330px;
+    left:230px;
+}
+.hero-container .star img{
+    position: absolute;
+    top:660px;
+    left:740px;
+    width:38px;
+}
+.hero-container .globe img{
+    position: absolute;
+    top:120px;
+    left:800px;
+    width: 50px;
+    
+}
+.hero-heading{
+    position: absolute;
+    top:250px;
+    left:700px;
+    font-size:55px;
+    font-family: 'Orbitron', sans-serif;
+}
+.hero-description{
+    position: absolute;
+    top:380px;
+    right: 180px;
+    left:760px;
+    font-size:20px;
+    font-style:initial;
+    text-align:center;
+}
+.button-email{
+    font-size:20px;
+    color: rgb(92, 91, 91);
+    background-color: white;
+    position: absolute;
+    padding:1px 20px;
+    top:540px;
+    left:850px;
+    border-radius: 7px;
+
+}
+.button-join{
+    font-size:20px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    padding:1px 2px;
+    top:540px;
+    left:1034px;
+    border-radius: 7px;
+}
+.contact-heading{
+    position: absolute;
+    color: rgb(113, 112, 112);
+    font-size: 25px;
+    top:650px;
+    left:960px;
+}
+.icons{
+    position: absolute;
+    top:700px;
+    left:931px;
+}
+.hero-container .s img{
+     position: absolute;
+    top:169px;
+    left:1355px;
+    width: 50px;
+    font-size: 3px;
+}
